@@ -1,0 +1,225 @@
+body{
+    background-color: #F3F3F9;
+}
+
+span.logo-lg img {
+    width: 85px;
+    height: auto;
+}
+
+.logo {
+}
+.navbar-menu{
+    background: #3F7AE0;
+    border-right: 0;
+}
+.navbar-menu .navbar-nav .nav-link{
+    color: #fff !important;
+}
+.navbar-menu .navbar-nav .nav-link svg{
+    color: #fff !important;
+}
+.navbar-menu .navbar-nav .nav-link.active{}
+.menu-title span{
+    color: #fff;
+}
+
+.navbar-menu .navbar-nav .nav-link[data-bs-toggle=collapse][aria-expanded=true]:after{
+    color: #fff;
+}
+.navbar-menu .navbar-nav .nav-sm .nav-link:before{
+    background-color: #fff;
+    opacity: 1;
+    height: 1px;
+}
+.faq__cover{
+    background: linear-gradient(90deg, #387ADF 0%, rgba(41, 156, 219, 0.55) 100%);
+}
+.topbar-user{
+    background: no-repeat;
+}
+.blue__color{
+    color: #3F7AE0;
+}
+.accordion-border-box .accordion-item .accordion-button:not(.collapsed){
+    background: #F3F3F9;
+    font-size: 13px;
+    color: #3A497B;
+}
+
+:is([data-layout=vertical],[data-layout=semibox])[data-sidebar-size=sm] .navbar-menu .navbar-nav .nav-item:hover>.menu-dropdown{
+    background: #3F7AE0;
+}
+:is([data-layout=vertical],[data-layout=semibox])[data-sidebar-size=sm] .navbar-menu .navbar-nav .nav-item:hover>a.menu-link{
+    background: #3F7AE0;
+}
+.btn-primary{
+    background: #3F7AE0;
+    border-color: #3F7AE0;
+}
+.btn__grp{}
+.btn__grp button{
+    padding: 9px 28px 8px;
+}
+
+.btn-soft-secondary {
+    background: #0AB39C19;
+    color: #0AB39C;
+}
+.btn-sky{
+    background-color: #299CDB;
+    color: #fff;
+}
+.nav-primary.nav-tabs-custom .nav-link.active{
+    color: #3F7AE0;
+}
+.nav-primary.nav-tabs-custom .nav-link.active:after{
+    background: #3F7AE0;
+}
+.new_badge{
+    background: #ABB9E8 !important;
+}
+div#elmLoader {
+    display: none;
+}
+div#chat-conversation {
+    background: #f3f3f975;
+}
+.file_img_blk{
+    height: clamp(15.625rem, 8.125vw + 14rem, 23.75rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.Permissions-btn-list{}
+
+.Permissions-btn-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+}
+.Permissions-btn-list li{
+    list-style: none;
+    /* width: 10.25%; */
+}
+.Permissions-btn-list li button{
+    width: 100%;
+    font-size: 13px;
+    background: no-repeat;
+    height: 38px;
+    border-radius: 4px;
+    border: 1px solid #CED4DA;
+    color: #21252966;
+    min-width: 160px;
+}
+.btn-soft-primary{
+    background: #ECF3FF;
+    color: #4788FF;
+}
+
+.Books__content{}
+
+.Books__content a {
+    width: 90%;
+    margin: auto;
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.Books__content p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.Books__content ul li {
+    font-size: 20px;
+}
+
+.Books__content .d-flex b {
+    color: #3F7AE0;
+    font-size: 28px;
+    flex-shrink: 0;
+}
+
+.Books__content .flex b {}
+
+.Books__content h3 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #000;
+}
+.text-primary{color: #3F7AE0 !important;}
+.profile-wid-bg::before{background: linear-gradient(180deg, rgba(103, 163, 255, 0.9) 0%, rgba(56, 122, 223, 0.9) 100%);
+}
+
+.Posts-1 .apexcharts-legend.apexcharts-align-center.apx-legend-position-bottom {
+    top: 0 !important;
+    bottom: auto !important;
+    right: 0 !important;
+    left: auto !important;
+}
+
+#grouped_bar{
+    height: 360px;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .Permissions-btn-list li{
+    width: 31%;
+}
+
+.file_img_blk img {
+    max-width: 90%;
+}
+.table {
+    min-width: 1000px;
+}
+.Books__content ul li {
+    font-size: 16px;
+}
+
+.Books__content p {
+    font-size: 16px;
+}
+
+.Books__content h3 {
+    font-size: 22px;
+}
+}
+
+@media (max-width: 767px) {
+    .file_img_blk img {
+        max-width: 90%;
+    }
+    .Permissions-btn-list li{
+        width: 48%;
+    }
+    .table {
+        min-width: 1000px;
+    }
+    .Books__content ul li {
+        font-size: 16px;
+    }
+    
+    .Books__content p {
+        font-size: 16px;
+    }
+    
+    .Books__content h3 {
+        font-size: 22px;
+    }
+    .Books__content .d-flex b{font-size: 20px;}
+    .Books__content a{
+    font-size: 18px;
+}
+}
+
+
+/* small screen :320px. */
+@media (max-width: 320px) {}
